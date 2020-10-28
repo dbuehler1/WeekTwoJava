@@ -1,13 +1,19 @@
-function calcPizza(){
-    var numPeople = parseInt(prompt("Enter the number of people sharing(Include yourself): "));
-    var numToppings = parseInt(prompt("Enter the number toppings ordered: "));
-    var total = parseFloat(((numToppings * 1.25) + 15)/numPeople);
-    alert("The cost per person is: $" + total.toFixed(2));
-}
-function calcLibrary(){
-    var numBooks = parseInt(prompt("Enter the number of books: "));
-    var numDVD = parseInt(prompt("Enter the number of DVDs: "));
-    var numDays = parseInt(prompt("Enter the number of days late: "));
-    var total = parseFloat((numBooks * (numDays * 0.25))+(numDVD * (numDays * 0.50)));
-    alert("The  amount due is: $" + total.toFixed(2));
-}
+$(document).ready(
+    function(){
+        $("#calcTotal").click(calcPizza);
+        $("#calcfeeTotal").click(calcLibrary);
+        function calcPizza(){
+            var numPeople = parseInt($("#numPeople").val());
+            var numToppings = parseInt($("#numtoppings").val());
+            var total = parseFloat(((numToppings * 1.25) + 15)/numPeople);
+            $("#due").text((total.toFixed(2)));
+        }
+        function calcLibrary(){
+            var numBooks = parseInt($("#books").val());
+            var numDVD = parseInt($("#dvd").val());
+            var numDays = parseInt($("#days").val());
+            var total = parseFloat((numBooks * (numDays * 0.25))+(numDVD * (numDays * 0.50)));
+            $("#fee").text((total.toFixed(2)));
+        }
+    }
+);

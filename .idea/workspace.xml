@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12bad7a-ac82-4d01-87a1-91e06ab9deab" name="Default Changelist" comment="" />
+    <list default="true" id="a12bad7a-ac82-4d01-87a1-91e06ab9deab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1jQVotqR5LgWZrsqrA4aYl5ngdV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,6 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603736480893</updated>
       <workItem from="1603736481962" duration="1562000" />
-      <workItem from="1603738951591" duration="10000" />
+      <workItem from="1603738951591" duration="7279000" />
     </task>
     <servers />
   </component>
@@ -43,9 +61,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603738154201">
+    <state x="829" y="418" key="Github.ShareDialog" timestamp="1603738976353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="829" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603738976353" />
+    <state x="812" y="221" key="Github.UntrackedFilesDialog" timestamp="1603738981336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="812" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603738981336" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1603913973311">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603913973311" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603913946666">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603738154201" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603913946666" />
   </component>
 </project>
